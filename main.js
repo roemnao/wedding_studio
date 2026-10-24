@@ -6,7 +6,7 @@ var contactInput = document.getElementById('fContact');
 var messageInput = document.getElementById('fMessage');
 
 consultForm.addEventListener('input', function(event){
-  event.target.setCustomValidity('Tên không thể nhỏ hơn 2 kí tự');
+  event.target.setCustomValidity('');
 });
 
 consultForm.addEventListener('submit', function(event){
